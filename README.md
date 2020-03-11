@@ -17,13 +17,13 @@ Steps to play (My Game):
 8. Hit the play again if you want to start over. And Good luck .. !
 
 ## Approach taken:
-I took an iterative approach to building out the game. First I drew out some initial wireframes on ( https://wireframe.cc/pro/pp/0640b5546321806 ), and then I focused on building core functionality. Last, add on CSS and style.
+I took an iterative approach to building out the game. First I drew out some initial wireframes on (https://wireframe.cc/pro/pp/0640b5546321806 ), and then I focused on building core functionality. Last, add on CSS and style.
 
 ## Technologies used:
 The game is built using HTML, CSS, JavaScript, and DOM manipulation. The code uses Animation API (GSAP), event listeners and array methods.
 
 # Installation:
-My game is hosted at GitHub pages .
+My game is hosted at GitHub pages ( https://ibtihal31.github.io/My-Game/ ) .
 
 ## Lessons Learned:
 - Practicing more of HTML , CSS , JS , DOM.  
