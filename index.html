@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Game</title>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="page">
+        <div id="container">
+          <div id="gameContainer">
+             <div id="gameHeader">
+               <div class="left questions">
+                 <div class="container"><span></span></div>
+               </div>
+               <div class="left timer">
+                 <div class="container">TIME: <span></span></div>
+               </div>
+               <div class="left score">
+                 <div class="container">SCORE: <span></span></div>
+               </div>
+             </div>
+             <div id="gameChoices">
+               <div class="row">
+                 <div class="left half">
+                   <div class="container"><button id="buttonOne" data-index="0"></button></div>
+                 </div>
+                 <div class="left half">
+                   <div class="container"><button id="buttonTwo" data-index="1"></button></div>
+                 </div>
+               </div>
+               <div class="row">
+                 <div class="left half">
+                   <div class="container"><button id="buttonThree" data-index="2"></button></div>
+                 </div>
+                 <div class="left half">
+                   <div class="container"><button id="buttonFour" data-index="3"></button></div>
+                 </div>
+               </div>
+             </div>
+             <div id="landingPage">
+                  <h1 id="title1">MY GAME</h1>
+                 <p id="intro">Challenge your general knowledge by answering the following question in limited time. The steps are: </p>
+                 <ul id="steps">
+                   <li>Click on start button to begin the game.</li>
+                   <li>You will see a question with four possible answers.</li>
+                   <li>You will have 10 second for every question to think and answer</li>
+                   <li>Choose the right answer to be awarded with 10 points.</li>
+                   <li>Try to answer before the time is up </li>
+                   <li>A message will appear in the screen If your answer is correct or incorrect</li>
+                   <li>At the end you will see the final score of correct answers</li>
+                   <li>Hit the play again if you want to start over. And Good luck .. !</li>
+                 </ul>
+                 <button id="startButton">START</button>
+                </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <div id="modal_window">
+       <div class="modal_message">
+         <p></p>
+      </div>
+    </div>
+      <script src="js/main.js"></script>
+</body>
+</html>
